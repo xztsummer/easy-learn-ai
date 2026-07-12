@@ -1,0 +1,570 @@
+[
+    {
+        "modelName": "GLM-4-9B-Chat",
+        "company": "智谱AI",
+        "country": "中国",
+        "openSourceStatus": "开源",
+        "releaseDate": "2024-06-05",
+        "description": "GLM‑4‑9B‑Chat 由智谱 AI 发布，改进 Transformer 并结合人类偏好对齐，支持 128K 上下文，具备网页浏览、代码执行与函数调用，覆盖 26 种语言；在同尺寸评测优于 Llama‑3‑8B，适用于长文问答、企业助手与检索增强应用。",
+        "modelTags": [
+            "文本生成",
+            "工具调用"
+        ],
+        "contextWindow": 128,
+        "maxGenerationTokenLength": 0,
+        "relatedLinks": [
+            {
+                "title": "GLM-4-9B 系列开源公告（GitHub）",
+                "url": "https://github.com/zai-org/GLM-4"
+            },
+            {
+                "title": "GLM 技术报告（arXiv）",
+                "url": "https://arxiv.org/abs/2406.12793"
+            },
+            {
+                "title": "GLM-4-9B-Chat Hugging Face 模型页",
+                "url": "https://huggingface.co/THUDM/glm-4-9b-chat"
+            }
+        ],
+        "parent": "GLM-4"
+    },
+    {
+        "modelName": "GLM-4-9B-Chat-1M",
+        "company": "智谱AI",
+        "country": "中国",
+        "openSourceStatus": "开源",
+        "releaseDate": "2024-06-05",
+        "description": "GLM‑4‑9B‑Chat‑1M 将上下文扩展至 1M，兼容多轮对话与函数调用，面向超长材料理解与跨文档检索；结合长文本优化与多语言能力，适合法规审阅、技术资料对读、档案整合与长链路任务编排。",
+        "modelTags": [
+            "文本生成",
+            "工具调用"
+        ],
+        "contextWindow": 1000,
+        "maxGenerationTokenLength": 0,
+        "relatedLinks": [
+            {
+                "title": "GLM-4-9B 系列开源公告（GitHub）",
+                "url": "https://github.com/zai-org/GLM-4"
+            },
+            {
+                "title": "GLM-4-9B-Chat-1M Hugging Face 模型页",
+                "url": "https://huggingface.co/THUDM/glm-4-9b-chat-1m"
+            }
+        ],
+        "parent": "GLM-4"
+    },
+    {
+        "modelName": "GLM-4V-9B",
+        "company": "智谱AI",
+        "country": "中国",
+        "openSourceStatus": "开源",
+        "releaseDate": "2024-06-05",
+        "description": "GLM‑4V‑9B 为 9B 多模态模型，支持图文对话与 1120×1120 高分辨率视觉理解，覆盖 OCR、图表解析与感知推理；文本与图像协同，在多项评测领先，适用于票据识别、截图理解、产品图评审与多模态检索。",
+        "modelTags": [
+            "视觉理解",
+            "文本生成"
+        ],
+        "contextWindow": 8,
+        "maxGenerationTokenLength": 0,
+        "relatedLinks": [
+            {
+                "title": "GLM-4V-9B 官方说明（GitHub）",
+                "url": "https://github.com/zai-org/GLM-4"
+            },
+            {
+                "title": "GLM-4V-9B Hugging Face 模型页",
+                "url": "https://huggingface.co/THUDM/glm-4v-9b"
+            }
+        ],
+        "parent": "GLM-4"
+    },
+    {
+        "modelName": "ChatGLM3-6B",
+        "company": "智谱AI",
+        "country": "中国",
+        "openSourceStatus": "开源",
+        "releaseDate": "2023-10-27",
+        "description": "ChatGLM3‑6B 由智谱 AI与清华 KEG 联合开源，6B 参数，基于 Transformer 并经 SFT/RLHF 对齐，默认 8K 上下文；支持工具调用与代码执行，在 MMLU、GSM8K、C‑Eval 等显著提升，适用于中文对话、检索问答与轻量代码生成。",
+        "modelTags": [
+            "文本生成",
+            "工具调用"
+        ],
+        "contextWindow": 8,
+        "maxGenerationTokenLength": 0,
+        "relatedLinks": [
+            {
+                "title": "ChatGLM3 官方开源仓库（GitHub）",
+                "url": "https://github.com/THUDM/ChatGLM3"
+            },
+            {
+                "title": "ChatGLM/GLM-4 技术报告（arXiv）",
+                "url": "https://arxiv.org/abs/2406.12793"
+            }
+        ],
+        "parent": "ChatGLM3"
+    },
+    {
+        "modelName": "ChatGLM3-6B-32K",
+        "company": "智谱AI",
+        "country": "中国",
+        "openSourceStatus": "开源",
+        "releaseDate": "2023-10-27",
+        "description": "ChatGLM3‑6B‑32K 扩展上下文至 32K，保留工具调用与代码执行能力，适合长材料归纳、合规审阅与跨章节问答；在中文和工程任务上表现稳健，用于文档总结、报告生成与研发需求评审等长文本应用。",
+        "modelTags": [
+            "文本生成",
+            "工具调用"
+        ],
+        "contextWindow": 32,
+        "maxGenerationTokenLength": 0,
+        "relatedLinks": [
+            {
+                "title": "ChatGLM3 官方开源仓库（GitHub）",
+                "url": "https://github.com/THUDM/ChatGLM3"
+            }
+        ],
+        "parent": "ChatGLM3"
+    },
+    {
+        "modelName": "ChatGLM3-6B-128K",
+        "company": "智谱AI",
+        "country": "中国",
+        "openSourceStatus": "开源",
+        "releaseDate": "2023-10-27",
+        "description": "ChatGLM3‑6B‑128K 提供 128K 上下文，面向超长文档理解与复杂链路推理；支持多轮对话、工具调用与代码能力，适合法规条款比对、学术综述编撰与跨项目档案整合，兼顾资源受限环境的高效推理与稳定生成。",
+        "modelTags": [
+            "文本生成",
+            "工具调用"
+        ],
+        "contextWindow": 128,
+        "maxGenerationTokenLength": 0,
+        "relatedLinks": [
+            {
+                "title": "ChatGLM3 官方开源仓库（GitHub）",
+                "url": "https://github.com/THUDM/ChatGLM3"
+            }
+        ],
+        "parent": "ChatGLM3"
+    },
+    {
+        "modelName": "GLM-4-32B-0414",
+        "company": "智谱AI",
+        "country": "中国",
+        "openSourceStatus": "开源",
+        "releaseDate": "2025-04-14",
+        "description": "GLM‑4‑32B‑0414 为 32B 对话模型，15T 高质量数据预训练并对齐，原生 32K 上下文；在指令遵循、工程代码与函数调用上强化，适用于智能体任务、搜索问答、报告生成与复杂业务编排，并支持长上下文外推至 128K。",
+        "modelTags": [
+            "文本生成",
+            "工具调用"
+        ],
+        "contextWindow": 32,
+        "maxGenerationTokenLength": 0,
+        "relatedLinks": [
+            {
+                "title": "GLM-4-32B-0414 官方说明（GitHub）",
+                "url": "https://github.com/zai-org/GLM-4"
+            },
+            {
+                "title": "GLM-4-32B-0414 Hugging Face 模型页",
+                "url": "https://huggingface.co/THUDM/GLM-4-32B-0414"
+            }
+        ],
+        "parent": "GLM-4"
+    },
+    {
+        "modelName": "GLM-4-32B-Base-0414",
+        "company": "智谱AI",
+        "country": "中国",
+        "openSourceStatus": "开源",
+        "releaseDate": "2025-04-14",
+        "description": "GLM‑4‑32B‑Base‑0414 为 32B 预训练基座，聚焦通用理解与生成，原生 32K 上下文；在数学、代码与知识问答等任务表现优异，适合作为微调与强化学习基础模型，用于企业定制、代码/搜索增强与长文生成。",
+        "modelTags": [
+            "文本生成"
+        ],
+        "contextWindow": 32,
+        "maxGenerationTokenLength": 0,
+        "relatedLinks": [
+            {
+                "title": "GLM-4-32B-0414 官方说明（GitHub）",
+                "url": "https://github.com/zai-org/GLM-4"
+            },
+            {
+                "title": "GLM-4-32B-Base-0414 Hugging Face 模型页",
+                "url": "https://huggingface.co/THUDM/GLM-4-32B-Base-0414"
+            }
+        ],
+        "parent": "GLM-4"
+    },
+    {
+        "modelName": "GLM-Z1-32B-0414",
+        "company": "智谱AI",
+        "country": "中国",
+        "openSourceStatus": "开源",
+        "releaseDate": "2025-04-14",
+        "description": "GLM‑Z1‑32B‑0414 为深度思考推理模型，基于 GLM‑4‑32B‑0414 通过冷启动与扩展强化学习提升数学、代码与复杂逻辑能力；支持长上下文与多步推理，适用于复杂问题求解、研究型写作与多工具协同的智能体工作流。",
+        "modelTags": [
+            "深度思考",
+            "文本生成"
+        ],
+        "contextWindow": 32,
+        "maxGenerationTokenLength": 0,
+        "relatedLinks": [
+            {
+                "title": "GLM-Z1-32B-0414 官方说明（GitHub）",
+                "url": "https://github.com/zai-org/GLM-4"
+            },
+            {
+                "title": "GLM 技术报告（arXiv）",
+                "url": "https://arxiv.org/abs/2406.12793"
+            }
+        ],
+        "parent": "GLM-4"
+    },
+    {
+        "modelName": "GLM-5",
+        "company": "智谱AI",
+        "country": "中国",
+        "openSourceStatus": "开源",
+        "releaseDate": "2026-02-11",
+        "description": "GLM-5 是智谱 AI 的新一代开源旗舰模型，采用 MoE 架构（总参 744B、激活 40B）；在 SWE-bench Verified 达到 77.8%，Terminal-Bench 2.0 达到 56.2%，编程能力接近 Claude Opus 4.5；支持 200K 上下文，API 成本仅为 Claude 的四十分之一，已完成华为昇腾、寒武纪等国产芯片适配，适用于智能体工程与企业级编码场景。",
+        "modelTags": [
+            "文本生成",
+            "深度思考",
+            "代码增强",
+            "工具调用"
+        ],
+        "contextWindow": 200,
+        "maxGenerationTokenLength": 128,
+        "relatedLinks": [
+            {
+                "title": "GLM-5 官方发布公告",
+                "url": "https://www.zhipuai.cn/news/glm-5"
+            },
+            {
+                "title": "GLM-5 GitHub 仓库",
+                "url": "https://github.com/THUDM/GLM-5"
+            }
+        ]
+    },
+    {
+        "modelName": "GLM-5.1",
+        "company": "智谱AI",
+        "country": "中国",
+        "openSourceStatus": "开源",
+        "releaseDate": "2026-04",
+        "description": "GLM-5.1 是智谱 AI 在 GLM-5 之后的升级模型，官方文档与模型列表将其列为 GLM-5 系列最新版本，继续面向复杂推理、代码、智能体工具调用和长上下文任务；适合企业级编程代理、知识工作自动化与国产化部署场景。",
+        "modelTags": [
+            "文本生成",
+            "深度思考",
+            "代码增强",
+            "工具调用"
+        ],
+        "contextWindow": 200,
+        "maxGenerationTokenLength": 128,
+        "relatedLinks": [
+            {
+                "title": "Z.ai 模型文档：GLM-5.1",
+                "url": "https://docs.z.ai/guides/llm/glm-5.1"
+            },
+            {
+                "title": "GLM-5 GitHub 仓库",
+                "url": "https://github.com/THUDM/GLM-5"
+            }
+        ],
+        "parent": "GLM-5"
+    },
+    {
+        "modelName": "GLM-5.2",
+        "company": "智谱AI",
+        "country": "中国",
+        "openSourceStatus": "开源",
+        "releaseDate": "2026-06-17",
+        "description": "GLM-5.2 是智谱 AI / Z.ai 面向长周期任务发布的 GLM-5 系列旗舰开源模型，采用 744B-A40B MoE 规模并提供 MIT 开源权重；支持 1M 上下文与 128K 输出，强化长上下文稳定性、工程规范遵循、代码库级理解和多步工具调用；在 Terminal-Bench 2.1 达到 81.0、SWE-bench Pro 达到 62.1，较 GLM-5.1 明显提升，适用于大型代码库接管、长链路重构、移动端调试、研究复现和复杂智能体工程。",
+        "modelTags": [
+            "文本生成",
+            "深度思考",
+            "代码增强",
+            "工具调用"
+        ],
+        "contextWindow": 1000,
+        "maxGenerationTokenLength": 128,
+        "relatedLinks": [
+            {
+                "title": "Z.ai 模型文档：GLM-5.2",
+                "url": "https://docs.z.ai/guides/llm/glm-5.2"
+            },
+            {
+                "title": "GLM-5 GitHub 仓库",
+                "url": "https://github.com/zai-org/GLM-5"
+            },
+            {
+                "title": "GLM-5.2 Hugging Face 模型页",
+                "url": "https://huggingface.co/zai-org/GLM-5.2"
+            }
+        ],
+        "parent": "GLM-5"
+    },
+    {
+        "modelName": "GLM-4.6",
+        "company": "智谱AI",
+        "country": "中国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2025-09-30",
+        "description": "GLM‑4.6 为最新旗舰闭源模型，总参数 355B、激活 32B；在代码能力对齐 Claude Sonnet 4，思维与工具调用更强，长上下文由 128K 提升至 200K；适用于复杂编程、长链路智能体、检索与写作等企业级场景。",
+        "modelTags": [
+            "文本生成",
+            "工具调用",
+            "代码增强",
+            "深度思考"
+        ],
+        "contextWindow": 200,
+        "maxGenerationTokenLength": 128,
+        "relatedLinks": [
+            {
+                "title": "GLM-4.6 官方文档",
+                "url": "https://docs.bigmodel.cn/cn/guide/models/text/glm-4.6"
+            }
+        ]
+    },
+    {
+        "modelName": "GLM-4.5",
+        "company": "智谱AI",
+        "country": "中国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2025-07-28",
+        "description": "GLM‑4.5 为闭源 MoE 文本模型系列，总参数 355B、激活 32B；在推理、代码与智能体能力上融合并优化，上下文扩展至 128K，支持思考模式与工具调用，兼顾高性能与高并发部署。",
+        "modelTags": [
+            "文本生成",
+            "工具调用",
+            "代码增强",
+            "深度思考"
+        ],
+        "contextWindow": 128,
+        "maxGenerationTokenLength": 96,
+        "relatedLinks": [
+            {
+                "title": "GLM-4.5 官方文档",
+                "url": "https://docs.bigmodel.cn/cn/guide/models/text/glm-4.5"
+            }
+        ]
+    },
+    {
+        "modelName": "GLM-4.5-Air",
+        "company": "智谱AI",
+        "country": "中国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2025-07-28",
+        "description": "GLM‑4.5‑Air 采用精简 MoE 设计，总参数约 106B、激活 12B；保留推理、代码与 Agent 能力，面向高性价比与高速度的生产部署，上下文 128K，适合低成本场景。",
+        "modelTags": [
+            "文本生成",
+            "工具调用",
+            "代码增强"
+        ],
+        "contextWindow": 128,
+        "maxGenerationTokenLength": 0,
+        "relatedLinks": [
+            {
+                "title": "GLM-4.5 官方文档",
+                "url": "https://docs.bigmodel.cn/cn/guide/models/text/glm-4.5"
+            }
+        ],
+        "parent": "GLM-4.5"
+    },
+    {
+        "modelName": "GLM-4-Plus",
+        "company": "智谱AI",
+        "country": "中国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2025-04-14",
+        "description": "GLM‑4‑Plus 为高智能对话模型，强化语言理解、逻辑推理与长文本处理，借助 PPO 与高质量合成数据在多项基准接近或超过 GPT‑4o；适用于企业问答、复杂写作与长文本任务。",
+        "modelTags": [
+            "文本生成",
+            "深度思考"
+        ],
+        "contextWindow": 128,
+        "maxGenerationTokenLength": 4,
+        "relatedLinks": [
+            {
+                "title": "GLM-4 系列官方文档",
+                "url": "https://docs.bigmodel.cn/cn/guide/models/text/glm-4"
+            }
+        ],
+        "parent": "GLM-4"
+    },
+    {
+        "modelName": "GLM-4-Air-250414",
+        "company": "智谱AI",
+        "country": "中国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2025-04-14",
+        "description": "GLM‑4‑Air‑250414 为基座语言模型，面向复杂任务的快速执行，工具调用、联网搜索与代码等智能体任务增强，并提供 AirX 高速版；适合工程与 Agent 型应用。",
+        "modelTags": [
+            "文本生成",
+            "工具调用",
+            "代码增强"
+        ],
+        "contextWindow": 128,
+        "maxGenerationTokenLength": 16,
+        "relatedLinks": [
+            {
+                "title": "GLM-4 系列官方文档",
+                "url": "https://docs.bigmodel.cn/cn/guide/models/text/glm-4"
+            }
+        ],
+        "parent": "GLM-4"
+    },
+    {
+        "modelName": "GLM-4-AirX",
+        "company": "智谱AI",
+        "country": "中国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2025-04-14",
+        "description": "GLM‑4‑AirX 为 GLM‑4‑Air 的高速版本，兼顾更快推理速度与并发保障，在实时检索、长上下文处理与多语言支持方面表现出色。",
+        "modelTags": [
+            "文本生成",
+            "工具调用"
+        ],
+        "contextWindow": 8,
+        "maxGenerationTokenLength": 4,
+        "relatedLinks": [
+            {
+                "title": "GLM-4 系列官方文档",
+                "url": "https://docs.bigmodel.cn/cn/guide/models/text/glm-4"
+            }
+        ],
+        "parent": "GLM-4"
+    },
+    {
+        "modelName": "GLM-4-FlashX-250414",
+        "company": "智谱AI",
+        "country": "中国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2025-04-14",
+        "description": "GLM‑4‑FlashX‑250414 面向超快推理与高并发，具备实时网页检索、长上下文与多语言支持，性价比极高，适合低延迟应用。",
+        "modelTags": [
+            "文本生成",
+            "工具调用"
+        ],
+        "contextWindow": 128,
+        "maxGenerationTokenLength": 16,
+        "relatedLinks": [
+            {
+                "title": "GLM-4 系列官方文档",
+                "url": "https://docs.bigmodel.cn/cn/guide/models/text/glm-4"
+            }
+        ],
+        "parent": "GLM-4"
+    },
+    {
+        "modelName": "GLM-4-Flash-250414",
+        "company": "智谱AI",
+        "country": "中国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2025-04-14",
+        "description": "GLM‑4‑Flash‑250414 为免费语言模型的增强版本，主打更快推理速度与更强并发保障，同时支持长上下文与实时检索。",
+        "modelTags": [
+            "文本生成"
+        ],
+        "contextWindow": 128,
+        "maxGenerationTokenLength": 16,
+        "relatedLinks": [
+            {
+                "title": "GLM-4 系列官方文档",
+                "url": "https://docs.bigmodel.cn/cn/guide/models/text/glm-4"
+            }
+        ],
+        "parent": "GLM-4"
+    },
+    {
+        "modelName": "GLM-4.5V",
+        "company": "智谱AI",
+        "country": "中国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2025",
+        "description": "GLM-4.5V 是智谱新一代基于 MOE 架构的视觉推理模型，以 106B 的总参数量和 12B 激活参数量，在各类基准测试中达到全球同级别开源多模态模型 SOTA，涵盖图像、视频、文档理解及 GUI 任务等常见任务。",
+        "modelTags": [
+            "文本生成",
+            "视觉理解",
+            "深度思考"
+        ],
+        "contextWindow": 64,
+        "maxGenerationTokenLength": 0,
+        "relatedLinks": [
+            {
+                "title": "GLM-4.5V 官方文档",
+                "url": "https://docs.bigmodel.cn/cn/guide/models/vlm/glm-4.5v"
+            }
+        ],
+        "parent": "GLM-4.5"
+    },
+    {
+        "modelName": "GLM-4.1V-Thinking",
+        "company": "智谱AI",
+        "country": "中国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2025-07-02",
+        "description": "GLM-4.1V-Thinking 系列是 10B 尺寸性能卓越的视觉推理模型。它在图表/视频理解、前端 Coding、GUI 任务等核心能力达到全面新 SOTA，并引入思维链推理机制，显著提升模型在复杂场景中的回答精准度与可解释性。",
+        "modelTags": [
+            "文本生成",
+            "视觉理解",
+            "深度思考"
+        ],
+        "contextWindow": 64,
+        "maxGenerationTokenLength": 0,
+        "relatedLinks": [
+            {
+                "title": "GLM-4.1V-Thinking 官方文档",
+                "url": "https://docs.bigmodel.cn/cn/guide/models/vlm/glm-4.1v-thinking"
+            }
+        ],
+        "parent": "GLM-4.1"
+    },
+    {
+        "modelName": "CogView-4",
+        "company": "智谱AI",
+        "country": "中国",
+        "openSourceStatus": "开源",
+        "releaseDate": "2025-03-04",
+        "description": "CogView-4 是智谱 AI 开源的中文友好文生图模型，采用 Diffusion Transformer 与 GLM-4-9B 编码器，支持中英双语提示与可控分辨率范围，中文文字生成效果突出并在 DPG-Bench 夺得开源 SOTA。适用于广告创意、电商主图、游戏美术等高质量图像生成场景。",
+        "modelTags": [
+            "图片生成"
+        ],
+        "maxOutputResolution": "1024x1024",
+        "relatedLinks": [
+            {
+                "title": "CogView-4 官方文档",
+                "url": " https://docs.bigmodel.cn/cn/guide/models/image-generation/cogview-4 "
+            },
+            {
+                "title": "图像生成 API 文档",
+                "url": " https://docs.bigmodel.cn/api-reference/模型-api/图像生成 "
+            },
+            {
+                "title": "CogView-4 GitHub 开源仓库",
+                "url": " https://github.com/THUDM/CogView4 "
+            }
+        ]
+    },
+    {
+        "modelName": "CogVideoX-3",
+        "company": "智谱AI",
+        "country": "中国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2025-07-15",
+        "description": "CogVideoX-3 是升级版视频生成模型，新增首尾帧生视频，显著提升画面清晰度与稳定度，主体大幅运动更自然，指令遵循与物理真实更佳；支持最高 4K、30/60fps、5/10 秒输出，文本/图像/首尾帧多模态输入，适用于广告短片、剧情片段与动漫风格创作等场景。",
+        "modelTags": [
+            "视频生成"
+        ],
+        "outputImageMaxResolution": "4K",
+        "maxGenerationVideoDuration": "10",
+        "relatedLinks": [
+            {
+                "title": "CogVideoX-3 官方文档",
+                "url": " https://docs.bigmodel.cn/cn/guide/models/video-generation/cogvideox-3 "
+            },
+            {
+                "title": "生成视频 API（异步）",
+                "url": " https://docs.bigmodel.cn/api-reference/ 模型-api/生成视频异步 "
+            }
+        ]
+    }
+]

@@ -1,0 +1,51 @@
+[
+    {
+        "modelName": "Kling 2.0",
+        "company": "快手",
+        "country": "中国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2025-04-15",
+        "description": "Kling AI 2.0 是快手科技推出的多模态生成模型，基于 DiT 架构与自研 3D VAE，实现时空同步压缩与高保真重建；在全注意力时空建模加强快速运动与复杂场景的细节捕获，支持文本到视频、图像到视频、多模态编辑与镜头控制，适合影视创作、广告与社媒内容制作。",
+        "modelTags": [
+            "视频生成",
+            "图片生成"
+        ],
+        "maxOutputResolution": "720P",
+        "relatedLinks": [
+            {
+                "title": "Kling AI 2.0 发布公告（快手科技新闻稿）",
+                "url": "https://ir.kuaishou.com/news-releases/news-release-details/kling-ai-advances-20-era-empowering-everyone-tell-great-stories/"
+            },
+            {
+                "title": "Kling 视频生成模型发布（1080p/30fps）",
+                "url": "https://ir.kuaishou.com/news-releases/news-release-details/kuaishou-unveils-proprietary-video-generation-model-kling/"
+            },
+            {
+                "title": "Kling AI 官方网站",
+                "url": "https://klingai.kuaishou.com/"
+            }
+        ]
+    },
+    {
+        "modelName": "Kling 2.5",
+        "company": "快手",
+        "country": "中国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2025-09-23",
+        "description": "Kling AI 2.5 Turbo Video Model 由快手推出，面向文本到视频与图像到视频场景，显著提升提示遵循、运动与物理模拟、风格一致性与审美质量；在多镜头叙事与角色保持方面增强，生成质量更稳且成本降低（5 秒 1080P 25 积分），适用于广告创意、影视分镜与社媒内容制作。",
+        "modelTags": [
+            "视频生成"
+        ],
+        "outputImageMaxResolution": "1080P",
+        "relatedLinks": [
+            {
+                "title": "Kling AI 2.5 Turbo 发布公告（快手科技新闻稿）",
+                "url": "https://ir.kuaishou.com/news-releases/news-release-details/kuaishou-launches-kling-ai-25-turbo-video-model/"
+            },
+            {
+                "title": "Kling AI 官方网站",
+                "url": "https://klingai.kuaishou.com/"
+            }
+        ]
+    }
+]

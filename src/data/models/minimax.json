@@ -1,0 +1,221 @@
+[
+    {
+        "modelName": "abab 6.5s",
+        "company": "MiniMax",
+        "country": "中国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2024-04-17",
+        "description": "abab 6.5s 是 MiniMax 推出的万亿参数 MoE 架构通用大语言模型，支持 200K 长上下文，强化指令遵循与检索能力，具备高吞吐与低成本推理；适用于企业级问答、长文档分析、内容生成与工具调用等多场景应用。",
+        "modelTags": [
+            "文本生成",
+            "深度思考",
+            "工具调用"
+        ],
+        "contextWindow": 200,
+        "maxGenerationTokenLength": 0,
+        "relatedLinks": [
+            {
+                "title": "MiniMax 官方新闻：通用大模型 abab 6.5 系列发布",
+                "url": " https://www.minimaxi.com/news/通用大模型abab65系列 "
+            },
+            {
+                "title": "MiniMax 文本生成指南（开放平台文档）",
+                "url": " https://platform.minimaxi.com/docs/guides/text-generation "
+            }
+        ]
+    },
+    {
+        "modelName": "MiniMax M3",
+        "company": "MiniMax",
+        "country": "中国",
+        "openSourceStatus": "开源",
+        "releaseDate": "2026-06-01",
+        "description": "MiniMax M3 是 MiniMax 发布的 M 系列新一代开放权重前沿模型，主打 Coding、Agentic Frontier、1M 上下文和原生多模态。模型采用 MiniMax Sparse Attention（MSA）架构，API 支持最高 1M tokens 上下文并承诺至少 512K 可用上下文；支持图像和视频输入、桌面操作、工具调用与长周期多步推理。官方称 M3 在 SWE-Bench Pro、BrowseComp、OmniDocBench、SVG-Bench、Claw-Eval 等编码、浏览检索、多模态与智能体评测中达到前沿水平，适用于 AI 编程助手、长文档/全仓库理解、多模态分析和自动化工作流。",
+        "modelTags": [
+            "文本生成",
+            "深度思考",
+            "视觉理解",
+            "代码增强",
+            "工具调用"
+        ],
+        "contextWindow": 1000,
+        "maxGenerationTokenLength": 32,
+        "relatedLinks": [
+            {
+                "title": "MiniMax M3 模型页面",
+                "url": "https://www.minimax.io/models/text/m3"
+            },
+            {
+                "title": "MiniMax M3 官方技术博客",
+                "url": "https://www.minimax.io/blog/minimax-m3"
+            },
+            {
+                "title": "MiniMax API 概览",
+                "url": "https://platform.minimax.io/docs/api-reference/api-overview"
+            }
+        ],
+        "parent": "MiniMax M3"
+    },
+    {
+        "modelName": "MiniMax M2.5",
+        "company": "MiniMax",
+        "country": "中国",
+        "openSourceStatus": "开源",
+        "releaseDate": "2026-02-12",
+        "description": "MiniMax M2.5 是全球首个为 Agent 场景原生设计的生产级模型，采用 MoE 架构（总参 230B、激活 10B）；在 SWE-bench Verified 达到 80.2%，Multi-SWE-Bench 全球第一，编程能力比肩 Claude Opus 4.6；支持 200K 上下文与 100 TPS 超高吞吐，成本仅为国际顶尖模型的 1/10 至 1/20，适用于全栈开发、智能体工作流与企业级编码自动化。",
+        "modelTags": [
+            "文本生成",
+            "深度思考",
+            "代码增强",
+            "工具调用"
+        ],
+        "contextWindow": 200,
+        "maxGenerationTokenLength": 128,
+        "relatedLinks": [
+            {
+                "title": "MiniMax M2.5 官方发布公告",
+                "url": "https://www.minimax.io/news/minimax-m2-5"
+            },
+            {
+                "title": "Hugging Face 仓库：MiniMax-M2.5",
+                "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2.5"
+            }
+        ]
+    },
+    {
+        "modelName": "MiniMax M2.7",
+        "company": "MiniMax",
+        "country": "中国",
+        "openSourceStatus": "开源",
+        "releaseDate": "2026-03-18",
+        "description": "MiniMax M2.7 是 MiniMax 面向 Agent、编码与多模态工作流的 M2 系列升级模型，官方文档显示其上下文窗口达到 200K，并在工具调用、长任务规划和软件工程能力上继续增强；适合代码代理、复杂检索问答、浏览器/文件工具协同和企业级自动化场景。",
+        "modelTags": [
+            "文本生成",
+            "深度思考",
+            "代码增强",
+            "视觉理解",
+            "工具调用"
+        ],
+        "contextWindow": 200,
+        "maxGenerationTokenLength": 128,
+        "relatedLinks": [
+            {
+                "title": "MiniMax M2.7 官方新闻",
+                "url": "https://www.minimax.io/news/minimax-m2-7"
+            },
+            {
+                "title": "MiniMax 开放平台模型概览",
+                "url": "https://platform.minimax.io/docs/introduction/models"
+            },
+            {
+                "title": "Hugging Face 仓库：MiniMax-M2.7",
+                "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2.7"
+            }
+        ],
+        "parent": "MiniMax M2"
+    },
+    {
+        "modelName": "MiniMax M2",
+        "company": "MiniMax",
+        "country": "中国",
+        "openSourceStatus": "开源",
+        "releaseDate": "2025-10-27",
+        "description": "MiniMax M2 面向 Agent 与代码工作流的轻量高效 MoE 模型（总参 230B、激活 10B），提供 204K 上下文与最高 128K 输出，强化工具链调用、深度检索与代码生成，兼容 OpenAI/Anthropic SDK，适用于自动化开发与企业级 Agent 场景。",
+        "modelTags": [
+            "文本生成",
+            "深度思考",
+            "代码增强",
+            "工具调用"
+        ],
+        "contextWindow": 204,
+        "maxGenerationTokenLength": 128,
+        "relatedLinks": [
+            {
+                "title": "MiniMax 官方新闻：M2 发布与开源",
+                "url": " https://www.minimax.io/news/minimax-m2 "
+            },
+            {
+                "title": "MiniMax 开放平台：OpenAI API 兼容说明",
+                "url": " https://platform.minimaxi.com/docs/api-reference/text-openai-api "
+            },
+            {
+                "title": "Hugging Face 仓库：MiniMax-M2",
+                "url": " https://huggingface.co/MiniMaxAI/MiniMax-M2 "
+            }
+        ]
+    },
+    {
+        "modelName": "MiniMax Image-01",
+        "company": "MiniMax",
+        "country": "中国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2025-03-03",
+        "description": "MiniMax Image‑01 是 MiniMax 推出的文生图生成模型，强调高提示遵循与电影感画面，支持 9 种纵横比与批量生成，提供参考人物一致性与高性价比（约为同质产品的 1/10）；官方未公开架构与训练数据规模，适用于品牌设计、产品可视化、IP 形象与社媒创作。",
+        "modelTags": [
+            "图片生成"
+        ],
+        "maxOutputResolution": "2048×2048",
+        "relatedLinks": [
+            {
+                "title": "MiniMax 新闻：Image‑01 发布",
+                "url": "https://www.minimaxi.com/news/image-01"
+            },
+            {
+                "title": "平台介绍：图像模型与 Image Generation",
+                "url": "https://platform.minimaxi.com/docs/guides/platform-intro"
+            },
+            {
+                "title": "官方社媒公告：Introducing Image‑01（X）",
+                "url": "https://x.com/MiniMax__AI/status/1896475931809817015"
+            }
+        ]
+    },
+    {
+        "modelName": "abab-video-1",
+        "company": "MiniMax",
+        "country": "中国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2024-09-02",
+        "description": "abab-video-1 是 MiniMax 的高清文本生成视频模型，结合扩散与线性注意力等技术，支持原生高分辨率与高帧率，文本指令响应稳定，可生成约 6 秒具电影质感的片段；适用于广告创意、社媒短视频、原型预告与多媒体内容生产。",
+        "modelTags": [
+            "视频生成"
+        ],
+        "relatedLinks": [
+            {
+                "title": "MiniMax 官方新闻：视频模型 abab-video-1 发布",
+                "url": " https://www.minimaxi.com/news/minimax大模型每日与世界的30亿次交互-3 "
+            },
+            {
+                "title": "海螺 AI 视频体验页",
+                "url": " https://www.hailuoai.com/video "
+            }
+        ]
+    },
+    {
+        "modelName": "Hailuo 2.3",
+        "company": "MiniMax",
+        "country": "中国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2025-10-28",
+        "description": "MiniMax Hailuo 2.3 基于自研 NCR 架构与更大参数规模及数据迭代，进一步强化动态表达与物理一致性，人物微表情与风格化更稳定；支持文本/图像到视频，768p/1080p、6/10 秒输出，并提供 2.3 Fast 提速降本，适用于广告创意、短片分镜与动漫风格转换。",
+        "modelTags": [
+            "视频生成"
+        ],
+        "outputImageMaxResolution": "1080P",
+        "maxGenerationVideoDuration": "10",
+        "relatedLinks": [
+            {
+                "title": "MiniMax 新闻：Hailuo 2.3 发布与 Media Agent",
+                "url": "https://www.minimaxi.com/news/minimax-hailuo-23"
+            },
+            {
+                "title": "MiniMax 新闻：与 VEED 联合发布（含规格）",
+                "url": "https://www.minimaxi.com/news/minimax-and-veed-hailuo-23-for-pro-level-ai-video"
+            },
+            {
+                "title": "海螺 AI 官方体验页",
+                "url": "https://hailuoai.com/"
+            }
+        ]
+    }
+]

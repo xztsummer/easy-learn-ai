@@ -1,0 +1,48 @@
+[
+    {
+        "modelName": "Pika 2.2",
+        "company": "Pika",
+        "country": "美国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2025-02-27",
+        "description": "Pika 2.2 是 Pika 推出的视频生成模型，基于自研视频扩散与时序建模，新增 Pikaframes 与 Pikascenes，支持文本/图像到视频与首尾帧生成，提升运动连贯与角色控制；输出 720p/1080p、5/10 秒片段，适用于社媒内容、广告创意与轻电影镜头设计（发布时间官方未公开）。",
+        "modelTags": [
+            "视频生成"
+        ],
+        "outputImageMaxResolution": "1080P",
+        "maxGenerationVideoDuration": "10",
+        "relatedLinks": [
+            {
+                "title": "Pika 官方 FAQ：模型输出与时长说明（含 2.2）",
+                "url": "https://pika.art/faq"
+            },
+            {
+                "title": "Pika 定价页：2.2/2.5 能力与分辨率/时长/信用点",
+                "url": "https://pika.art/pricing"
+            }
+        ]
+    },
+    {
+        "modelName": "Pika 2.5",
+        "company": "Pika",
+        "country": "美国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2025-11-23",
+        "description": "Pika 2.5 是 Pika 最新视频生成模型，强化真实物理与提示遵循，画面细节更稳定；支持文本/图像到视频与多风格编辑（Pikaffects、Pikadditions、Pikaswaps、Pikatwists），提供 480p/720p/1080p、5/10 秒输出，适合广告创作、叙事短片与社媒内容制作（发布时间官方未公开）。",
+        "modelTags": [
+            "视频生成"
+        ],
+        "outputImageMaxResolution": "1080P",
+        "maxGenerationVideoDuration": "10",
+        "relatedLinks": [
+            {
+                "title": "Pika 官网首页：Pika 2.5 上线文案",
+                "url": "https://www.pika.art/"
+            },
+            {
+                "title": "Pika 定价页：2.5 文生/图生视频分辨率与时长",
+                "url": "https://pika.art/pricing"
+            }
+        ]
+    }
+]

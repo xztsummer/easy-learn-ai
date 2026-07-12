@@ -1,0 +1,241 @@
+[
+    {
+        "modelName": "Grok-1",
+        "company": "xAI",
+        "country": "美国",
+        "openSourceStatus": "开源",
+        "releaseDate": "2024-03-28",
+        "description": "Grok‑1 是 xAI 发布的开源 314B Mixture‑of‑Experts Transformer 模型，使用大规模互联网语料与代码数据训练，强化文本生成与稳健推理；支持长段落理解、结构化输出与研究复现，适用于开发者研究、算法评测、代码辅助与问答等场景。",
+        "modelTags": [
+            "文本生成"
+        ],
+        "contextWindow": 8,
+        "maxGenerationTokenLength": 0,
+        "relatedLinks": [
+            {
+                "title": "Grok‑1 开源发布公告",
+                "url": "https://x.ai/blog/grok-os"
+            },
+            {
+                "title": "xAI 模型卡",
+                "url": "https://x.ai/model-card"
+            },
+            {
+                "title": "Grok‑1 Github",
+                "url": "https://github.com/xai-org/grok"
+            }
+        ]
+    },
+    {
+        "modelName": "Grok 2 Vision",
+        "company": "xAI",
+        "country": "美国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2024-11-04",
+        "description": "Grok 2 是 xAI 的闭源多模态大模型，面向生产 API，提升长文本理解、复杂推理与一致性；支持文本与视觉输入、函数调用与结构化输出，适合智能助理、检索增强生成与数据分析等。通用版上下文窗口暂无官方公开，相关规格以文档为准。",
+        "modelTags": [
+            "文本生成",
+            "视觉理解",
+            "工具调用"
+        ],
+        "contextWindow": 32,
+        "maxGenerationTokenLength": 0,
+        "relatedLinks": [
+            {
+                "title": "Grok 2 官方发布新闻",
+                "url": "https://x.ai/news/grok-2"
+            },
+            {
+                "title": "Grok‑2 Vision‑1212（文档与规格）",
+                "url": "https://docs.x.ai/docs/models/grok-2-vision-1212"
+            }
+        ]
+    },
+    {
+        "modelName": "Grok 3",
+        "company": "xAI",
+        "country": "美国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2025-07-14",
+        "description": "Grok 3 是 xAI 面向企业的闭源旗舰模型，官方上下文窗口 131K，强化推理一致性与工具使用能力；支持文本与图像理解、函数调用和可控输出，适合长文档问答、代码分析与业务自动化。知识截止 2024‑11，并提供 Mini 版本以覆盖轻量场景。",
+        "modelTags": [
+            "文本生成",
+            "深度思考",
+            "工具调用",
+            "代码增强"
+        ],
+        "contextWindow": 131,
+        "maxGenerationTokenLength": 0,
+        "relatedLinks": [
+            {
+                "title": "Grok 3 官方发布新闻",
+                "url": "https://x.ai/news/grok-3"
+            },
+            {
+                "title": "Grok 3 模型文档",
+                "url": "https://docs.x.ai/docs/models/grok-3"
+            }
+        ]
+    },
+    {
+        "modelName": "Grok 4",
+        "company": "xAI",
+        "country": "美国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2025-08-28",
+        "description": "Grok 4 是 xAI 最新一代闭源模型，主打更强深度推理与可扩展代理能力；官方 0709 版本上下文窗口 256K，同时提供 Fast 变体支持 2M 上下文与更高吞吐。支持多模态输入、工具调用与检索集成，适用于复杂工作流、长材料理解与企业应用。",
+        "modelTags": [
+            "文本生成",
+            "深度思考",
+            "视觉理解",
+            "工具调用"
+        ],
+        "contextWindow": 256,
+        "maxGenerationTokenLength": 0,
+        "relatedLinks": [
+            {
+                "title": "Grok 4 官方发布新闻",
+                "url": "https://x.ai/news/grok-4"
+            },
+            {
+                "title": "Grok‑4 0709（上下文与规格）",
+                "url": "https://docs.x.ai/docs/models/grok-4-0709"
+            },
+            {
+                "title": "Grok‑4 Fast（2M 上下文）",
+                "url": "https://docs.x.ai/docs/models/grok-4-fast-reasoning"
+            }
+        ]
+    },
+    {
+        "modelName": "Grok Code Fast 1",
+        "company": "xAI",
+        "country": "美国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2025-09",
+        "description": "grok-code-fast-1 是 xAI 面向代理式编程任务的轻量推理模型，采用全新架构与大规模编程语料预训练，原生支持工具调用与结构化输出，结合高命中率缓存优化提升速度与成本效率；适用于代码检索、自动修复与多工具协作。单次输出上限暂无官方公开。",
+        "modelTags": [
+            "代码增强",
+            "工具调用",
+            "深度思考"
+        ],
+        "contextWindow": 256,
+        "maxGenerationTokenLength": 0,
+        "relatedLinks": [
+            {
+                "title": "grok-code-fast-1 模型文档",
+                "url": "https://docs.x.ai/docs/models/grok-code-fast-1"
+            },
+            {
+                "title": "Grok Code Fast 1 官方发布新闻",
+                "url": "https://x.ai/news/grok-code-fast-1"
+            }
+        ]
+    },
+    {
+        "modelName": "Grok 4 Fast Reasoning",
+        "company": "xAI",
+        "country": "美国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2025-09-19",
+        "description": "grok-4-fast-reasoning 是 xAI 推出的高性价比推理模型，提供 2M 上下文窗口，原生工具调用与结构化输出能力，面向复杂推理与工作流编排；结合缓存与高吞吐率优化，适合长文本理解、任务分解与企业自动化。单次输出上限暂无官方明确说明。",
+        "modelTags": [
+            "文本生成",
+            "深度思考",
+            "工具调用",
+            "视觉理解"
+        ],
+        "contextWindow": 2000,
+        "maxGenerationTokenLength": 0,
+        "relatedLinks": [
+            {
+                "title": "grok-4-fast 模型文档（Reasoning）",
+                "url": "https://docs.x.ai/docs/models/grok-4-fast-reasoning"
+            },
+            {
+                "title": "Grok 4 Fast 官方发布新闻",
+                "url": "https://x.ai/news/grok-4-fast"
+            }
+        ],
+        "parent": "Grok 4"
+    },
+    {
+        "modelName": "Grok 4.1",
+        "company": "xAI",
+        "country": "美国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2025-11-17",
+        "description": "Grok 4.1 是 xAI 推出的新一代多模态大模型，采用统一推理架构并以大规模强化学习优化风格、人格与协作对话；支持长上下文（Fast 版达 2M），原生工具调用与结构化输出，集成网页/X 搜索与文档检索，适用于客户支持、信息检索、代码执行与研究分析。",
+        "modelTags": [
+            "文本生成",
+            "视觉理解",
+            "工具调用"
+        ],
+        "contextWindow": 2000,
+        "maxGenerationTokenLength": 0,
+        "relatedLinks": [
+            {
+                "title": "Grok 4.1 官方发布公告",
+                "url": "https://x.ai/news/grok-4-1"
+            },
+            {
+                "title": "Grok 4.1 Fast（Reasoning）模型页（2M 上下文）",
+                "url": "https://docs.x.ai/docs/models/grok-4-1-fast-reasoning"
+            }
+        ]
+    },
+    {
+        "modelName": "Grok 4.3",
+        "company": "xAI",
+        "country": "美国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2026-03-16",
+        "description": "Grok 4.3 是 xAI Grok 4 系列后续主力模型，官方模型页列出 1,000K 上下文窗口，知识截止 2025-11，支持结构化输出、函数调用与内置搜索能力，适用于长文档问答、研究检索、复杂对话与企业工具调用场景。",
+        "modelTags": [
+            "文本生成",
+            "深度思考",
+            "视觉理解",
+            "工具调用"
+        ],
+        "contextWindow": 1000,
+        "maxGenerationTokenLength": 0,
+        "relatedLinks": [
+            {
+                "title": "Grok 4.3 模型文档",
+                "url": "https://docs.x.ai/docs/models/grok-4-3"
+            },
+            {
+                "title": "xAI 模型总览",
+                "url": "https://docs.x.ai/docs/models/"
+            }
+        ],
+        "parent": "Grok 4"
+    },
+    {
+        "modelName": "Grok 4.1 Fast Reasoning",
+        "company": "xAI",
+        "country": "美国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2025-11-17",
+        "description": "grok-4-1-fast-reasoning 是 xAI 面向高性能工具调用与企业场景的推理模型，提供 2M 上下文窗口与高吞吐率；经长地平线强化学习与多轮对话优化，在复杂任务规划、网页/X 检索、代码执行与文档检索中保持稳定表现，适合客服、金融与研究型工作流。单次输出上限暂无官方明确说明。",
+        "modelTags": [
+            "文本生成",
+            "深度思考",
+            "工具调用",
+            "视觉理解"
+        ],
+        "contextWindow": 2000,
+        "maxGenerationTokenLength": 0,
+        "relatedLinks": [
+            {
+                "title": "grok-4-1-fast 模型文档（Reasoning）",
+                "url": "https://docs.x.ai/docs/models/grok-4-1-fast-reasoning"
+            },
+            {
+                "title": "Grok 4.1 Fast 与 Agent Tools API 官方新闻",
+                "url": "https://x.ai/news/grok-4-1-fast"
+            }
+        ],
+        "parent": "Grok 4.1"
+    }
+]

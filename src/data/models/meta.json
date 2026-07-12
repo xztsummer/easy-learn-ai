@@ -1,0 +1,178 @@
+[
+    {
+        "modelName": "Llama 4 Maverick",
+        "company": "Meta",
+        "country": "美国",
+        "openSourceStatus": "开源",
+        "releaseDate": "2025-04-05",
+        "description": "Llama 4 Maverick 为原生多模态、指令微调的 MoE 大模型，激活参数约 17B（总参 400B），上下文窗口 1M tokens（分布式推理约 $0.19/MTok，单机约 $0.30–$0.49/MTok）。擅长图文理解、代码、工具调用与多语言，知识截止 2024-08。",
+        "modelTags": [
+            "文本生成",
+            "视觉理解",
+            "代码增强",
+            "工具调用",
+            "深度思考"
+        ],
+        "contextWindow": 1000,
+        "maxGenerationTokenLength": 64,
+        "relatedLinks": [
+            {
+                "title": "Meta Llama 官网",
+                "url": "https://llama.meta.com/"
+            },
+            {
+                "title": "GitHub: Llama 4 Maverick 新闻",
+                "url": "https://github.com/meta-llama/llama-models/blob/main/NEWS/2025-04-05-llama-4-maverick.md"
+            }
+        ]
+    },
+    {
+        "modelName": "Llama 4 Scout",
+        "company": "Meta",
+        "country": "美国",
+        "openSourceStatus": "开源",
+        "releaseDate": "2025-04-05",
+        "description": "Llama 4 Scout 为 10M 上下文的多模态 MoE 模型（17B 激活，16 专家），可在单张 H100 上以 int4 量化推理；预训练 256K 上下文，指令版扩展至 10M，知识截止 2024-08。",
+        "modelTags": [
+            "文本生成",
+            "视觉理解",
+            "代码增强",
+            "工具调用",
+            "深度思考"
+        ],
+        "contextWindow": 10000,
+        "maxGenerationTokenLength": 64,
+        "relatedLinks": [
+            {
+                "title": "Meta Llama 官网",
+                "url": "https://llama.meta.com/"
+            },
+            {
+                "title": "GitHub: Llama 4 Scout 新闻",
+                "url": "https://github.com/meta-llama/llama-models/blob/main/NEWS/2025-04-05-llama-4-scout.md"
+            }
+        ]
+    },
+    {
+        "modelName": "Llama 3.3 70B Instruct",
+        "company": "Meta",
+        "country": "美国",
+        "openSourceStatus": "开源",
+        "releaseDate": "2024-12-06",
+        "description": "Llama 3.3 70B 为多语言指令模型，支持 128K 上下文与零样本函数调用，部分应用上接近 Llama 3.1 405B；预训练约 15T token，知识截止 2023-12。",
+        "modelTags": [
+            "文本生成",
+            "代码增强",
+            "工具调用"
+        ],
+        "contextWindow": 128,
+        "maxGenerationTokenLength": 32,
+        "relatedLinks": [
+            {
+                "title": "Meta Llama 官网",
+                "url": "https://llama.meta.com/"
+            },
+            {
+                "title": "GitHub: Llama 3.3 70B Instruct",
+                "url": "https://github.com/meta-llama/llama-models"
+            }
+        ]
+    },
+    {
+        "modelName": "Llama 3.2 11B",
+        "company": "Meta",
+        "country": "美国",
+        "openSourceStatus": "开源",
+        "releaseDate": "2024-09-18",
+        "description": "Llama 3.2 11B（含 Vision 变体）支持 128K 上下文，强化多语言与视觉理解，适合轻量部署与多模态应用。",
+        "modelTags": [
+            "文本生成",
+            "视觉理解"
+        ],
+        "contextWindow": 128,
+        "maxGenerationTokenLength": 16,
+        "relatedLinks": [
+            {
+                "title": "Meta Llama 官网",
+                "url": "https://llama.meta.com/"
+            },
+            {
+                "title": "GitHub: Llama 3.2",
+                "url": "https://github.com/meta-llama/llama-models"
+            }
+        ]
+    },
+    {
+        "modelName": "Llama 3.2 90B",
+        "company": "Meta",
+        "country": "美国",
+        "openSourceStatus": "开源",
+        "releaseDate": "2024-09-18",
+        "description": "Llama 3.2 90B 面向更强的多语言与推理能力，支持 128K 上下文，适合企业应用与长对话。",
+        "modelTags": [
+            "文本生成",
+            "深度思考"
+        ],
+        "contextWindow": 128,
+        "maxGenerationTokenLength": 32,
+        "relatedLinks": [
+            {
+                "title": "Meta Llama 官网",
+                "url": "https://llama.meta.com/"
+            },
+            {
+                "title": "GitHub: Llama 3.2",
+                "url": "https://github.com/meta-llama/llama-models"
+            }
+        ]
+    },
+    {
+        "modelName": "Llama 3.1 70B",
+        "company": "Meta",
+        "country": "美国",
+        "openSourceStatus": "开源",
+        "releaseDate": "2024-07-23",
+        "description": "Llama 3.1 70B 为指令模型，支持 128K 上下文，沿用 3.1 系列提示格式与函数调用能力。",
+        "modelTags": [
+            "文本生成",
+            "代码增强",
+            "工具调用"
+        ],
+        "contextWindow": 128,
+        "maxGenerationTokenLength": 32,
+        "relatedLinks": [
+            {
+                "title": "Meta Llama 官网",
+                "url": "https://llama.meta.com/"
+            },
+            {
+                "title": "GitHub: Llama 3.1",
+                "url": "https://github.com/meta-llama/llama-models"
+            }
+        ]
+    },
+    {
+        "modelName": "Llama 3.1 405B",
+        "company": "Meta",
+        "country": "美国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2024-07-23",
+        "description": "Llama 3.1 405B 为 3.1 系列的旗舰模型，于多项评测表现领先，提示格式与 3.1 保持一致。",
+        "modelTags": [
+            "文本生成",
+            "深度思考"
+        ],
+        "contextWindow": 128,
+        "maxGenerationTokenLength": 32,
+        "relatedLinks": [
+            {
+                "title": "Meta Llama 官网",
+                "url": "https://llama.meta.com/"
+            },
+            {
+                "title": "GitHub: Llama 3.1",
+                "url": "https://github.com/meta-llama/llama-models"
+            }
+        ]
+    }
+]

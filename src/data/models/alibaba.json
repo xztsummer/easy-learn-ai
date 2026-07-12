@@ -1,0 +1,752 @@
+[
+    {
+        "modelName": "Qwen3.5-Plus",
+        "company": "阿里巴巴",
+        "country": "中国",
+        "openSourceStatus": "开源",
+        "releaseDate": "2026-02-16",
+        "description": "Qwen3.5-Plus 是通义千问 3.5 系列的开源旗舰模型，采用混合架构（线性注意力 + MoE），总参数 397B、激活 17B；在 MMLU-Pro 达到 87.8%，GPQA 达到 88.4%，性能超越万亿参数的 Qwen3-Max；支持原生多模态与 256K 上下文，推理吞吐量提升最高 19 倍，API 价格仅为 Gemini 3 Pro 的 1/18，适用于企业级智能体与高性价比推理场景。",
+        "modelTags": [
+            "文本生成",
+            "深度思考",
+            "视觉理解",
+            "代码增强",
+            "工具调用"
+        ],
+        "contextWindow": 256,
+        "maxGenerationTokenLength": 32,
+        "relatedLinks": [
+            {
+                "title": "Qwen3.5 官方发布公告",
+                "url": "https://qwenlm.github.io/blog/qwen3.5"
+            },
+            {
+                "title": "Qwen3.5 GitHub 仓库",
+                "url": "https://github.com/QwenLM/Qwen3.5"
+            }
+        ]
+    },
+    {
+        "modelName": "Qwen3.7-Max",
+        "company": "阿里巴巴",
+        "country": "中国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2026-05-21",
+        "description": "Qwen3.7-Max 是阿里云百炼/Model Studio 最新旗舰通义千问模型，官方更新公告称其为 Qwen3.7-Max 最新版本，显著提升长链思考、Agent 能力、编程、推理与安全性；支持超长上下文与工具调用，适合高复杂度智能体、企业研发协作与多轮深度推理任务。",
+        "modelTags": [
+            "文本生成",
+            "深度思考",
+            "代码增强",
+            "工具调用"
+        ],
+        "contextWindow": 1000,
+        "maxGenerationTokenLength": 64,
+        "relatedLinks": [
+            {
+                "title": "Model Studio 更新记录：Qwen3.7-Max",
+                "url": "https://help.aliyun.com/zh/model-studio/release-notes"
+            },
+            {
+                "title": "通义千问文本生成模型列表",
+                "url": "https://help.aliyun.com/zh/model-studio/text-generation-model/"
+            }
+        ],
+        "parent": "Qwen3.7"
+    },
+    {
+        "modelName": "Qwen3.6-Plus",
+        "company": "阿里巴巴",
+        "country": "中国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2026-04-02",
+        "description": "Qwen3.6-Plus 是通义千问 3.6 系列的旗舰 Plus 模型，Model Studio 文档列出其支持 1M 上下文、64K 输出与 80K 思考预算，强化推理、代码与工具调用，适合长文档、复杂业务流程与高可靠智能体场景。",
+        "modelTags": [
+            "文本生成",
+            "深度思考",
+            "代码增强",
+            "工具调用"
+        ],
+        "contextWindow": 1000,
+        "maxGenerationTokenLength": 64,
+        "relatedLinks": [
+            {
+                "title": "通义千问文本生成模型列表：Qwen3.6-Plus",
+                "url": "https://help.aliyun.com/zh/model-studio/text-generation-model/"
+            },
+            {
+                "title": "Model Studio 更新记录：Qwen3.6-Plus",
+                "url": "https://help.aliyun.com/zh/model-studio/release-notes"
+            }
+        ],
+        "parent": "Qwen3.6"
+    },
+    {
+        "modelName": "Qwen3.6-Flash",
+        "company": "阿里巴巴",
+        "country": "中国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2026-04-16",
+        "description": "Qwen3.6-Flash 是通义千问 3.6 系列的低成本高速模型，官方模型列表显示其提供 1M 上下文与 64K 输出，面向高吞吐文本生成、长文档摘要、检索问答和轻量智能体工具调用；相比 Plus 更重视延迟与规模化成本。",
+        "modelTags": [
+            "文本生成",
+            "深度思考",
+            "工具调用"
+        ],
+        "contextWindow": 1000,
+        "maxGenerationTokenLength": 64,
+        "relatedLinks": [
+            {
+                "title": "通义千问文本生成模型列表：Qwen3.6-Flash",
+                "url": "https://help.aliyun.com/zh/model-studio/text-generation-model/"
+            },
+            {
+                "title": "Model Studio 更新记录：Qwen3.6-Flash",
+                "url": "https://help.aliyun.com/zh/model-studio/release-notes"
+            }
+        ],
+        "parent": "Qwen3.6"
+    },
+    {
+        "modelName": "Qwen3-235B-A22B-Instruct-2507",
+        "company": "阿里巴巴",
+        "country": "中国",
+        "openSourceStatus": "开源",
+        "releaseDate": "2025-07-21",
+        "description": "Qwen3-235B-A22B-Instruct-2507 是通义千问 3 系列的非思考模式大模型（MoE，激活约 22B），在指令遵循、工具使用、代码与多语言覆盖上全面增强；原生支持 256K 上下文，并可在推理框架中扩展至约 1M；适合长文档处理、企业问答与高质量文本生成。",
+        "modelTags": [
+            "文本生成",
+            "工具调用",
+            "代码增强"
+        ],
+        "contextWindow": 128,
+        "maxGenerationTokenLength": 32,
+        "relatedLinks": [
+            {
+                "title": "通义千问3-235B-A22B-Instruct-2507 模型页",
+                "url": "https://modelscope.cn/models/Qwen/Qwen3-235B-A22B-Instruct-2507"
+            },
+            {
+                "title": "Qwen3 GitHub 仓库与发布时间",
+                "url": "https://github.com/qwenlm/qwen3"
+            }
+        ],
+        "parent": "Qwen3"
+    },
+    {
+        "modelName": "Qwen3-235B-A22B-Thinking-2507",
+        "company": "阿里巴巴",
+        "country": "中国",
+        "openSourceStatus": "开源",
+        "releaseDate": "2025-07-25",
+        "description": "Qwen3-235B-A22B-Thinking-2507 为思考模式版本，强调复杂推理（数学、逻辑、代码、学术）能力，支持 256K 长上下文；默认启用思考内容输出（<think> 块）；适合高难度推理与结构化步骤输出场景。",
+        "modelTags": [
+            "文本生成",
+            "深度思考",
+            "工具调用"
+        ],
+        "contextWindow": 80,
+        "maxGenerationTokenLength": 32,
+        "relatedLinks": [
+            {
+                "title": "通义千问3-235B-A22B-Thinking-2507 模型页",
+                "url": "https://modelscope.cn/models/Qwen/Qwen3-235B-A22B-Thinking-2507"
+            },
+            {
+                "title": "Qwen3 GitHub 仓库与发布时间",
+                "url": "https://github.com/qwenlm/qwen3"
+            }
+        ],
+        "parent": "Qwen3"
+    },
+    {
+        "modelName": "Qwen3-30B-A3B-Instruct-2507",
+        "company": "阿里巴巴",
+        "country": "中国",
+        "openSourceStatus": "开源",
+        "releaseDate": "2025-07-30",
+        "description": "Qwen3-30B-A3B-Instruct-2507 是非思考模式版本，在指令遵循、工具调用、长上下文与多语言方面均有提升；原生支持 256K 上下文，适合通用对话、知识问答与编程辅助。",
+        "modelTags": [
+            "文本生成",
+            "工具调用"
+        ],
+        "contextWindow": 128,
+        "maxGenerationTokenLength": 96,
+        "relatedLinks": [
+            {
+                "title": "通义千问3-30B-A3B-Instruct-2507 模型页",
+                "url": "https://modelscope.cn/models/Qwen/Qwen3-30B-A3B-Instruct-2507"
+            },
+            {
+                "title": "Qwen3 GitHub 仓库与发布时间",
+                "url": "https://github.com/qwenlm/qwen3"
+            }
+        ],
+        "parent": "Qwen3"
+    },
+    {
+        "modelName": "Qwen3-30B-A3B-Thinking-2507",
+        "company": "阿里巴巴",
+        "country": "中国",
+        "openSourceStatus": "开源",
+        "releaseDate": "2025-07-31",
+        "description": "Qwen3-30B-A3B-Thinking-2507 为思考模式版本，强调复杂推理与代码/数学等任务能力；原生支持 256K 上下文，默认输出包含思考块，适合深度推理需求。",
+        "modelTags": [
+            "文本生成",
+            "深度思考",
+            "工具调用"
+        ],
+        "contextWindow": 128,
+        "maxGenerationTokenLength": 96,
+        "relatedLinks": [
+            {
+                "title": "通义千问3-30B-A3B-Thinking-2507 模型页",
+                "url": "https://modelscope.cn/models/Qwen/Qwen3-30B-A3B-Thinking-2507"
+            },
+            {
+                "title": "Qwen3 GitHub 仓库与发布时间",
+                "url": "https://github.com/qwenlm/qwen3"
+            }
+        ],
+        "parent": "Qwen3"
+    },
+    {
+        "modelName": "Qwen3-4B-Instruct-2507",
+        "company": "阿里巴巴",
+        "country": "中国",
+        "openSourceStatus": "开源",
+        "releaseDate": "2025-08-06",
+        "description": "Qwen3-4B-Instruct-2507 是轻量非思考模型，优化指令遵循与工具使用，保留 256K 长上下文能力，适合本地与边缘部署的通用对话与编程辅助。",
+        "modelTags": [
+            "文本生成",
+            "工具调用"
+        ],
+        "contextWindow": 128,
+        "maxGenerationTokenLength": 96,
+        "relatedLinks": [
+            {
+                "title": "通义千问3-4B-Instruct-2507 模型页",
+                "url": "https://modelscope.cn/models/Qwen/Qwen3-4B-Instruct-2507"
+            },
+            {
+                "title": "Qwen3 GitHub 仓库与发布时间",
+                "url": "https://github.com/qwenlm/qwen3"
+            }
+        ],
+        "parent": "Qwen3"
+    },
+    {
+        "modelName": "Qwen3-4B-Thinking-2507",
+        "company": "阿里巴巴",
+        "country": "中国",
+        "openSourceStatus": "开源",
+        "releaseDate": "2025-08-06",
+        "description": "Qwen3-4B-Thinking-2507 为轻量思考模型，支持 256K 上下文并默认启用思考内容输出；适合资源受限环境下的复杂推理与代码辅助。",
+        "modelTags": [
+            "文本生成",
+            "深度思考",
+            "工具调用"
+        ],
+        "contextWindow": 128,
+        "maxGenerationTokenLength": 96,
+        "relatedLinks": [
+            {
+                "title": "通义千问3-4B-Thinking-2507 模型页",
+                "url": "https://modelscope.cn/models/Qwen/Qwen3-4B-Thinking-2507"
+            },
+            {
+                "title": "Qwen3 GitHub 仓库与发布时间",
+                "url": "https://github.com/qwenlm/qwen3"
+            }
+        ],
+        "parent": "Qwen3"
+    },
+    {
+        "modelName": "Qwen3-Max",
+        "company": "阿里巴巴",
+        "country": "中国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2025-09-23",
+        "description": "通义千问3系列Max模型，相较preview版本在智能体编程与工具调用方向进行了专项升级。本次发布的正式版模型达到领域SOTA水平，适配场景更加复杂的智能体需求。",
+        "modelTags": [
+            "文本生成",
+            "深度思考",
+            "工具调用"
+        ],
+        "contextWindow": 256,
+        "maxGenerationTokenLength": 256,
+        "relatedLinks": [
+            {
+                "title": "通义千问 Qwen 官方主页（Qwen3‑Max 介绍）",
+                "url": "https://qwen.ai/"
+            },
+            {
+                "title": "DashScope Qwen API 平台",
+                "url": "https://dashscope.aliyun.com/"
+            }
+        ],
+        "parent": "Qwen3"
+    },
+    {
+        "modelName": "Qwen-Plus",
+        "company": "阿里巴巴",
+        "country": "中国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2025-07-14",
+        "description": "Qwen3系列Plus模型，实现思考模式和非思考模式的有效融合，可在对话中切换模式。推理能力显著超过QwQ、通用能力显著超过Qwen2.5-Plus，达到同规模业界SOTA水平。",
+        "modelTags": [
+            "文本生成",
+            "深度思考",
+            "工具调用"
+        ],
+        "contextWindow": 1000,
+        "maxGenerationTokenLength": 997,
+        "relatedLinks": [
+            {
+                "title": "通义千问 Qwen 官方主页（Qwen3‑Max 介绍）",
+                "url": "https://qwen.ai/"
+            },
+            {
+                "title": "DashScope Qwen API 平台",
+                "url": "https://dashscope.aliyun.com/"
+            }
+        ],
+        "parent": "Qwen3"
+    },
+    {
+        "modelName": "Qwen-Flash",
+        "company": "阿里巴巴",
+        "country": "中国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2025-07-28",
+        "description": "Qwen3系列Flash模型，实现思考模式和非思考模式的有效融合，可在对话中切换模式。复杂推理类任务性能优秀，指令遵循、文本理解等能力显著提高。支持1M上下文长度，按照上下文长度进行阶梯计费。",
+        "modelTags": [
+            "文本生成",
+            "深度思考",
+            "工具调用"
+        ],
+        "contextWindow": 1000,
+        "maxGenerationTokenLength": 997,
+        "relatedLinks": [
+            {
+                "title": "通义千问 Qwen 官方主页",
+                "url": "https://qwen.ai/"
+            },
+            {
+                "title": "DashScope Qwen API 平台",
+                "url": "https://dashscope.aliyun.com/"
+            }
+        ],
+        "parent": "Qwen3"
+    },
+    {
+        "modelName": "Qwen3-VL-235B-A22B-Instruct-2509",
+        "company": "阿里巴巴",
+        "country": "中国",
+        "openSourceStatus": "开源",
+        "releaseDate": "2025-09-23",
+        "description": "Qwen3‑VL 是通义千问 3 代多模态视觉语言模型，在图像/视频理解、OCR、空间与时序推理上显著提升；原生 256K 上下文，可扩展至约 1M；适合多模态问答、文档解析与可视化编码。",
+        "modelTags": [
+            "视觉理解",
+            "文本生成",
+            "工具调用"
+        ],
+        "contextWindow": 128,
+        "maxGenerationTokenLength": 124,
+        "relatedLinks": [
+            {
+                "title": "Qwen3‑VL GitHub 仓库",
+                "url": "https://github.com/QwenLM/Qwen3-VL"
+            },
+            {
+                "title": "Qwen3‑VL README（上下文与部署示例）",
+                "url": "https://github.com/QwenLM/Qwen3-VL/blob/main/README.md"
+            }
+        ],
+        "parent": "Qwen3-VL"
+    },
+    {
+        "modelName": "Qwen3-VL-Plus",
+        "company": "阿里巴巴",
+        "country": "中国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2025-09-23",
+        "description": "qwen3-vl-plus 是阿里云通义千问 Qwen3 系列的视觉理解模型，升级视觉编码与空间感知，支持文本、图片与视频输入；融合思考与直接回复两模式（enable_thinking 控制），在文档识别、场景理解、长视频/长图文推理与视觉智能体中表现均衡，适合企业检索问答、质检审核与多模态业务。官方未公开上下文窗口与最大输出限制。",
+        "modelTags": [
+            "视觉理解",
+            "文本生成",
+            "工具调用",
+            "深度思考"
+        ],
+        "contextWindow": 256,
+        "maxGenerationTokenLength": 254,
+        "relatedLinks": [
+            {
+                "title": "模型上架与更新：qwen3-vl-plus（2025-09-23）",
+                "url": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+            },
+            {
+                "title": "视觉理解（Qwen3-VL）用户指南",
+                "url": "https://help.aliyun.com/zh/model-studio/vision-understanding"
+            },
+            {
+                "title": "全部模型规格与价格（含 Qwen3-VL）",
+                "url": "https://help.aliyun.com/zh/model-studio/models"
+            }
+        ],
+        "parent": "Qwen3-VL"
+    },
+    {
+        "modelName": "Qwen3-Omni-Flash",
+        "company": "阿里巴巴",
+        "country": "中国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2025-09-15",
+        "description": "通义千问3-Omni-Flash多模态大模型，基于Thinker–Talker混合专家（MoE）架构，支持文本、图像、音频、视频的高效理解与语音生成能力，可进行119种语言文本交互和20种语言语音交互，生成类人语音实现跨语言精准沟通。模型具备强大指令跟随与系统提示定制功能，灵活适配对话风格与角色设定，广泛应用于文本创作、语音助手、多媒体分析等场景，提供自然流畅的多模态交互体验。",
+        "modelTags": [
+            "视觉理解",
+            "文本生成",
+            "工具调用",
+            "深度思考"
+        ],
+        "contextWindow": 64,
+        "maxGenerationTokenLength": 48,
+        "relatedLinks": [
+            {
+                "title": "Qwen3-Omni 模型介绍",
+                "url": "https://qwen.ai/blog?id=qwen3-omni"
+            }
+        ],
+        "parent": "Qwen3-Omni"
+    },
+    {
+        "modelName": "Qwen3-Omni-Flash-RealTime",
+        "company": "阿里巴巴",
+        "country": "中国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2025-09-15",
+        "description": "通义千问3-Omni-Flash多模态大模型的实时版，基于Thinker–Talker混合专家（MoE）架构，支持文本、图像、音频、视频的高效理解与语音生成能力，可进行119种语言文本交互和20种语言语音交互，生成类人语音实现跨语言精准沟通。模型具备强大指令跟随与系统提示定制功能，灵活适配对话风格与角色设定，广泛应用于文本创作、语音助手、多媒体分析等场景，提供自然流畅的多模态交互体验。",
+        "modelTags": [
+            "视觉理解",
+            "文本生成",
+            "工具调用",
+            "深度思考"
+        ],
+        "contextWindow": 64,
+        "maxGenerationTokenLength": 48,
+        "relatedLinks": [
+            {
+                "title": "Qwen3-Omni 模型介绍",
+                "url": "https://qwen.ai/blog?id=qwen3-omni"
+            }
+        ],
+        "parent": "Qwen3-Omni"
+    },
+    {
+        "modelName": "Qwen3-VL-Flash",
+        "company": "阿里巴巴",
+        "country": "中国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2025-10-16",
+        "description": "qwen3-vl-flash 是 Qwen3 系列的高效视觉理解模型，延迟更低、性价比更高，支持文本、图片与视频输入；融合思考与直接回复模式，适合实时图文问答、文档与表格识别、场景理解与轻量视觉智能体，高并发与交互场景表现稳定。官方未公开上下文窗口与最大输出限制。",
+        "modelTags": [
+            "视觉理解",
+            "文本生成",
+            "工具调用",
+            "深度思考"
+        ],
+        "contextWindow": 256,
+        "maxGenerationTokenLength": 254,
+        "relatedLinks": [
+            {
+                "title": "模型上架与更新：qwen3-vl-flash（2025-10-16）",
+                "url": "https://help.aliyun.com/zh/model-studio/newly-released-models"
+            },
+            {
+                "title": "视觉理解（Qwen3-VL）用户指南",
+                "url": "https://help.aliyun.com/zh/model-studio/vision-understanding"
+            },
+            {
+                "title": "全部模型规格与价格（含 Qwen3-VL）",
+                "url": "https://help.aliyun.com/zh/model-studio/models"
+            }
+        ],
+        "parent": "Qwen3-VL"
+    },
+    {
+        "modelName": "Qwen3-Coder-480B-A35B-Instruct",
+        "company": "阿里巴巴",
+        "country": "中国",
+        "openSourceStatus": "开源",
+        "releaseDate": "2025-07-22",
+        "description": "Qwen3‑Coder 为代码方向模型，采用 480B MoE（激活约 35B），原生 256K 上下文并可扩展至约 1M；面向 Agentic Coding、工具使用与代码生成/修复，支持 FIM 等能力。",
+        "modelTags": [
+            "代码增强",
+            "工具调用",
+            "文本生成"
+        ],
+        "contextWindow": 256,
+        "maxGenerationTokenLength": 0,
+        "relatedLinks": [
+            {
+                "title": "Qwen3‑Coder GitHub 仓库",
+                "url": "https://github.com/QwenLM/Qwen3-Coder"
+            },
+            {
+                "title": "Qwen3‑Coder 官方博客",
+                "url": "https://qwenlm.github.io/blog/qwen3-coder/"
+            },
+            {
+                "title": "Qwen3-Coder-480B-A35B-Instruct Hugging Face 模型页",
+                "url": "https://huggingface.co/Qwen/Qwen3-Coder-480B-A35B-Instruct"
+            }
+        ],
+        "parent": "Qwen3-Coder"
+    },
+    {
+        "modelName": "QwQ-32B",
+        "company": "阿里巴巴",
+        "country": "中国",
+        "openSourceStatus": "开源",
+        "releaseDate": "2025-03",
+        "description": "基于Qwen2.5-32B模型训练的QwQ推理模型，通过强化学习大幅度提升了模型推理能力。模型数学代码等核心指标（AIME 24/25、livecodebench）以及部分通用指标（IFEval、LiveBench等）达到DeepSeek-R1 满血版水平，各指标均显著超过同样基于 Qwen2.5-32B 的 DeepSeek-R1-Distill-Qwen-32B。",
+        "modelTags": [
+            "深度思考",
+            "文本生成"
+        ],
+        "contextWindow": 128,
+        "maxGenerationTokenLength": 96,
+        "relatedLinks": [
+            {
+                "title": "QwQ‑32B 博客（官方）",
+                "url": "https://qwenlm.github.io/blog/qwq-32b/"
+            },
+            {
+                "title": "QwQ‑32B GitHub 仓库",
+                "url": "https://github.com/QwenLM/QwQ"
+            },
+            {
+                "title": "QwQ‑32B Hugging Face 模型页",
+                "url": "https://huggingface.co/Qwen/QwQ-32B"
+            }
+        ],
+        "parent": "QwQ"
+    },
+    {
+        "modelName": "QwQ-Plus",
+        "company": "阿里巴巴",
+        "country": "中国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2025-03",
+        "description": "基于Qwen2.5-32B模型训练的QwQ推理模型，通过强化学习大幅度提升了模型推理能力。模型数学代码等核心指标（AIME 24/25、livecodebench）以及部分通用指标（IFEval、LiveBench等）达到DeepSeek-R1 满血版水平，各指标均显著超过同样基于 Qwen2.5-32B 的 DeepSeek-R1-Distill-Qwen-32B。",
+        "modelTags": [
+            "深度思考",
+            "文本生成"
+        ],
+        "contextWindow": 128,
+        "maxGenerationTokenLength": 96,
+        "relatedLinks": [
+            {
+                "title": "QwQ‑32B 博客（官方）",
+                "url": "https://qwenlm.github.io/blog/qwq-32b/"
+            },
+            {
+                "title": "QwQ‑32B GitHub 仓库",
+                "url": "https://github.com/QwenLM/QwQ"
+            },
+            {
+                "title": "QwQ‑32B Hugging Face 模型页",
+                "url": "https://huggingface.co/Qwen/QwQ-32B"
+            }
+        ],
+        "parent": "QwQ"
+    },
+    {
+        "modelName": "QVQ-72B-Preview",
+        "company": "阿里巴巴",
+        "country": "中国",
+        "openSourceStatus": "开源",
+        "releaseDate": "2024-12-25",
+        "description": "通义千问-QVQ-72B-Preview是由 Qwen 团队开发的一个实验性研究模型，专注于提升视觉推理能力。通义千问-QVQ-72B-Preview模型在基准测试中取得了优异的表现，在 MMMU 上达到了70.3%，展示了 QVQ 在多学科理解和推理任务上的强大能力，MathVista 和 MathVision 的提升凸显了模型在数学推理任务上的进步。与 Qwen2-VL-72B 相比，QVQ 验证了思维链有助于模型提升视觉推理能力，尤其是需要深度思考和推理的数学领力。",
+        "modelTags": [
+            "视觉理解",
+            "深度思考",
+            "文本生成"
+        ],
+        "contextWindow": 32,
+        "maxGenerationTokenLength": 16,
+        "relatedLinks": [
+            {
+                "title": "QVQ‑72B‑Preview 博客（官方）",
+                "url": "https://qwenlm.github.io/blog/qvq-72b-preview/"
+            },
+            {
+                "title": "QVQ‑72B‑Preview Hugging Face 模型页",
+                "url": "https://huggingface.co/Qwen/QVQ-72B-Preview"
+            },
+            {
+                "title": "阿里云社区新闻（QVQ‑72B‑Preview）",
+                "url": "https://www.alibabacloud.com/blog/alibaba-cloud-unveils-new-research-model-for-enhanced-visual-reasoning_601914"
+            }
+        ],
+        "parent": "QVQ"
+    },
+    {
+        "modelName": "QVQ-Max",
+        "company": "阿里巴巴",
+        "country": "中国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2025-03",
+        "description": "通义千问QVQ视觉推理模型，支持视觉输入及思维链输出，在数学、编程、视觉分析、创作以及通用任务上都表现了更强的能力。",
+        "modelTags": [
+            "视觉理解",
+            "深度思考",
+            "文本生成"
+        ],
+        "contextWindow": 128,
+        "maxGenerationTokenLength": 104,
+        "relatedLinks": [
+            {
+                "title": "QVQ‑Max 博客（官方）",
+                "url": "https://qwenlm.github.io/blog/qvq-max-preview/"
+            },
+            {
+                "title": "Qwen 官方 X 动态（QVQ‑Max）",
+                "url": "https://x.com/Alibaba_Qwen/status/1905342260100956210"
+            }
+        ],
+        "parent": "QVQ"
+    },
+    {
+        "modelName": "Qwen Image Plus",
+        "company": "阿里巴巴",
+        "country": "中国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2025-08-04",
+        "description": "Qwen‑Image Plus 为云端商业版文生图模型，能力与 Qwen‑Image 一致，默认 1328×1328 并支持 1:1、4:3、16:9 等预设分辨率；提供提示词智能改写与水印控制，性价比更优，适合大规模素材生产、社媒运营与电商海报自动化生成。",
+        "modelTags": [
+            "图片生成"
+        ],
+        "maxOutputResolution": "1472x1140",
+        "relatedLinks": [
+            {
+                "title": "Qwen-Image API 参考（qwen-image-plus 使用与参数）",
+                "url": "https://www.alibabacloud.com/help/en/model-studio/qwen-image-api"
+            },
+            {
+                "title": "通义千问 文生图 API 文档（中文）",
+                "url": "https://help.aliyun.com/zh/model-studio/qwen-image-api"
+            }
+        ],
+        "parent": "Qwen-Image"
+    },
+    {
+        "modelName": "Qwen Image",
+        "company": "阿里巴巴",
+        "country": "中国",
+        "openSourceStatus": "开源",
+        "releaseDate": "2025-08-04",
+        "description": "Qwen‑Image 是阿里云推出的 20B MMDiT 文生图基础模型，强化中英文复杂文本渲染，支持段落级排版与细粒度细节刻画；采用渐进式训练与双编码（Qwen2.5‑VL 语义 + VAE 重构）提升编辑一致性，适用于海报设计、品牌视觉、商品主图与信息图生成。",
+        "modelTags": [
+            "图片生成"
+        ],
+        "maxOutputResolution": "1472x1140",
+        "relatedLinks": [
+            {
+                "title": "Qwen-Image GitHub 开源仓库",
+                "url": "https://github.com/QwenLM/Qwen-Image"
+            },
+            {
+                "title": "Qwen-Image 技术报告（arXiv 2508.02324）",
+                "url": "https://arxiv.org/abs/2508.02324"
+            },
+            {
+                "title": "通义千问 文生图 API 文档（中文）",
+                "url": "https://help.aliyun.com/zh/model-studio/qwen-image-api"
+            }
+        ],
+        "parent": "Qwen-Image"
+    },
+    {
+        "modelName": "Z-Image",
+        "company": "阿里巴巴",
+        "country": "中国",
+        "openSourceStatus": "开源",
+        "releaseDate": "2025-11-27",
+        "description": "Z-Image 由阿里巴巴通义实验室发布，采用单流扩散 Transformer（S3‑DiT）与 Decoupled‑DMD 少步蒸馏，6B 参数在 8 步内实现照片级真实感与中英文本精准渲染；结合 DMDR 强化优化，兼顾语义对齐与美学质量，可在 16GB 显存设备秒级推理，适用于商业海报、内容创作与图像编辑。",
+        "modelTags": [
+            "图片生成"
+        ],
+        "maxOutputResolution": "1024×1024",
+        "relatedLinks": [
+            {
+                "title": "Z-Image 官方主页（Tongyi MAI）",
+                "url": "https://tongyi-mai.github.io/Z-Image-blog/"
+            },
+            {
+                "title": "Z-Image GitHub 仓库（Apache-2.0）",
+                "url": "https://github.com/Tongyi-MAI/Z-Image"
+            },
+            {
+                "title": "Z-Image-Turbo 模型卡（Hugging Face）",
+                "url": "https://huggingface.co/Tongyi-MAI/Z-Image-Turbo"
+            }
+        ]
+    },
+    {
+        "modelName": "Wan2.5-Preview",
+        "company": "阿里巴巴",
+        "country": "中国",
+        "openSourceStatus": "闭源",
+        "releaseDate": "2025-09-24",
+        "description": "Wan2.5‑Preview 为通义万相最新一代多模态生成模型，原生支持音画同步，提供 10 秒 1080P 24fps 文生视频与图像生成、图像编辑能力；改进提示遵循与结构稳定性，支持复杂文本与图像融合，适用于广告创意、影视分镜、社媒内容与电商素材。",
+        "modelTags": [
+            "图片生成",
+            "视频生成",
+            "视觉理解"
+        ],
+        "maxOutputResolution": "1440x1440",
+        "relatedLinks": [
+            {
+                "title": "通义万相 文生图V2 API（wan2.5-t2i-preview）",
+                "url": "https://help.aliyun.com/zh/model-studio/text-to-image-v2-api-reference"
+            },
+            {
+                "title": "通义万相 文生视频 API（wan2.5-t2v-preview）",
+                "url": "https://help.aliyun.com/zh/model-studio/text-to-video-api-reference"
+            },
+            {
+                "title": "通义万相 图像编辑 API（wan2.5-i2i-preview）",
+                "url": "https://help.aliyun.com/zh/model-studio/wan2-5-image-edit-api-reference"
+            }
+        ],
+        "parent": "Wan"
+    },
+    {
+        "modelName": "Wan2.2",
+        "company": "阿里巴巴",
+        "country": "中国",
+        "openSourceStatus": "开源",
+        "releaseDate": "2025-07-28",
+        "description": "Wan2.2 为开源视频生成基础模型，采用 Mixture‑of‑Experts 架构（总参 27B、推理激活 14B），两阶段去噪与高压缩 3D VAE（4×16×16）；支持 T2V/I2V 720P@24fps 与 TI2V‑5B 消费级部署，提供 60+ 影像审美控制，适合内容创作与动画制作。",
+        "modelTags": [
+            "视频生成",
+            "图片生成"
+        ],
+        "maxOutputResolution": "1440x1440",
+        "relatedLinks": [
+            {
+                "title": "Wan2.2 GitHub 开源仓库",
+                "url": "https://github.com/Wan-Video/Wan2.2"
+            },
+            {
+                "title": "通义万相 文生图V2 API（wan2.2 系列）",
+                "url": "https://help.aliyun.com/zh/model-studio/text-to-image-v2-api-reference"
+            },
+            {
+                "title": "调用 wan2.2-s2v API（数字人口型视频）",
+                "url": "https://help.aliyun.com/zh/model-studio/wan-s2v-api"
+            }
+        ],
+        "parent": "Wan"
+    }
+]
